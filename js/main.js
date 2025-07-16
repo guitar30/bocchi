@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroTitle = document.getElementById('hero-title');
     if (heroTitle) {
         new Typed('#hero-title', {
-            strings: ['Bocchi Marketing', '孤独な社長のお手伝い'],
+            strings: ['Bocchi Marketing', 'ぼっちな社長のお手伝い'],
             typeSpeed: 100,
             backSpeed: 50,
             loop: true,
