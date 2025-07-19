@@ -560,6 +560,9 @@ header ul li a.active::after {
 }
 
 .line-qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 40px;
     background: #fff;
@@ -577,6 +580,27 @@ header ul li a.active::after {
     width: 200px;
     height: 200px;
     margin-top: 20px;
+}
+
+.line-banner {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #00B900;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.line-banner:hover {
+    background-color: #009d00;
+}
+
+.line-banner .fa-line {
+    margin-right: 8px;
+    font-size: 1.2em;
 }
 
 .hidden {
